@@ -1,0 +1,84 @@
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+}
+
+.form-label {
+    -fx-text-fill: #00796b;
+    -fx-font-weight: bold;
+}
+
+.user-form {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #00796b;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+
+.text-field {
+    -fx-border-color: #00796b;
+    -fx-border-width: 1;
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #00796b;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #005f4d;
+}
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    -fx-fit-width: 80px;
+    -fx-fit-height: 80px;
+}
+
+.text-field {
+    -fx-padding: 10;
+}
+
+.vbox {
+    -fx-spacing: 15;
+}
+
+.hbox {
+    -fx-spacing: 15;
+}
+
+.button:pressed {
+    -fx-background-color: #004d40;
+}
+
+.sidebar {
+    -fx-background-color: #00796b;
+    -fx-padding: 20;
+    -fx-alignment: center;
+}
+
+.sidebar-label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+    -fx-cursor: hand;
+}
+
+.sidebar-label:hover {
+    -fx-text-fill: #e0f2f1;
+}

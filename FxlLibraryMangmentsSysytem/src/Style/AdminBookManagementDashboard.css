@@ -1,0 +1,120 @@
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 14px;
+}
+
+.side-bar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #00796b;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 15;
+    -fx-spacing: 15;
+    -fx-alignment: center;
+    -fx-border-style: solid;
+}
+
+.side-bar Label {
+    -fx-text-fill: #00796b;
+    -fx-font-weight: bold;
+}
+
+.side-bar .button {
+    -fx-background-color: #00796b;
+    -fx-text-fill: white;    
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.side-bar .button:hover {
+    -fx-background-color: #005f4d;
+}
+
+.book-form {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #00796b;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+
+.book-form Label {
+    -fx-text-fill: #00796b;
+    -fx-font-weight: bold;
+}
+
+.text-field, .password-field {
+    -fx-border-color: #00796b;
+    -fx-border-width: 1;
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 14px;
+}
+
+.combo-box {
+    -fx-border-color: #00796b;
+    -fx-border-width: 1;
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #00796b;
+    -fx-text-fill: white;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #005f4d;
+}
+
+/* الجدول */
+.table-container {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #00796b;
+    -fx-border-width: 2;
+    -fx-border-radius: 2;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-border-style: solid;
+}
+
+.table-view {
+    -fx-border-color: #00796b;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-color: white;
+    -fx-border-style: solid;
+}
+
+.table-view .column-header {
+    -fx-background-color: #00796b;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-alignment: center;
+}
+
+.table-view .cell {
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+    -fx-alignment: center;
+}
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0);
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+}
